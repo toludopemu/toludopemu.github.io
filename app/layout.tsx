@@ -6,7 +6,7 @@ import { Footer } from "@/components/Footer"
 
 
 export const metadata: Metadata = {
-    metadataBase: new URL("https://toludope.github.io"),
+    metadataBase: new URL("https://toludopemu.github.io"),
     title: {
         default: "Nofisat Tolu Dopemu | SEO Strategist & Digital Innovator",
         template: "%s | Nofisat Tolu Dopemu",
@@ -22,12 +22,12 @@ export const metadata: Metadata = {
         "SEO Consultant UK",
         "Nofisat Tolu Dopemu",
     ],
-    authors: [{ name: "Nofisat Tolu Dopemu", url: "https://toludope.github.io" }],
+    authors: [{ name: "Nofisat Tolu Dopemu", url: "https://toludopemu.github.io" }],
     openGraph: {
         title: "Nofisat Tolu Dopemu | SEO Strategist & Digital Innovator",
         description:
             "Driving organic growth through strategic SEO & digital innovation. Portfolio of high-impact work for global brands.",
-        url: "https://toludope.github.io",
+        url: "https://toludopemu.github.io",
         siteName: "Nofisat Tolu Dopemu",
         images: [{ url: "/1768121933380.jpeg", width: 1200, height: 630, alt: "Nofisat Tolu Dopemu" }],
         locale: "en_GB",
