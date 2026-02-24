@@ -34,17 +34,61 @@
 - [Learn More](#books-learn-more)
 - [Deploy on Vercel](#page_with_curl-deploy-on-vercel)
 - [Give A Star](#star-give-a-star)
-- [Star History](#star2-star-history)
-- [Give A Star](#star-give-a-star)
+# Nofisat Tolu Dopemu — SEO Strategist & Digital Innovator
 
-</details>
+Driving organic growth through strategic SEO and digital innovation. Trusted by global brands including Audi, Guardian, Johnnie Walker and Post Office Limited. This repository contains the source for the public portfolio website showcasing services, case studies, blog writing and mentoring initiatives.
 
-## :bangbang: Folder Structure
+---
 
-Here is the folder structure of this app.
+## Overview
 
-<!--- FOLDER_STRUCTURE_START --->
+- **Name:** Nofisat Tolu Dopemu
+- **Role:** SEO Strategist & Digital Innovator
+- **Experience:** 4+ years — founder-turned-strategist focusing on measurable organic growth
+
+The site highlights case studies, services (Technical SEO, Content Strategy, Growth Marketing, Digital PR, AI & Automation, SEO Audits), selected blog posts, and community / mentoring work.
+
+## Services (summary)
+
+- **Technical SEO:** site crawls, Core Web Vitals remediation, schema, hreflang, migrations.
+- **Content Strategy:** keyword research, content cluster maps, briefs and editorial support.
+- **Growth Marketing:** CRO, analytics, local SEO and cross-channel strategies.
+- **Digital PR & Link Building:** data-led campaigns, outreach and backlink acquisition.
+- **AI & Automation Consulting:** AI workflows, prompt engineering and automation pipelines.
+- **SEO Audits:** scored audits, prioritised issue matrices and 30/60/90 plans.
+
+## Case Studies (high level slugs)
+
+- post-office-cruise-insurance
+- post-office-digital-pr
+- guardian-jobs-content-seo
+- johnnie-walker-prince-street
+- audi-local-seo-footfall
+- tiger-recruitment-local-seo
+
+## Selected Blog Topics (slugs)
+
+- modern-seo-ai-era
+- content-cluster-strategy
+- digital-pr-seo-backlinks
+- seo-burnout-strategies
+- geo-generative-engine-optimisation
+- networking-for-introverts
+
+## Skills, Tools & Certifications
+
+Core skills: Content Strategy, Local & International SEO, Technical SEO, Link Building, Competitor Audit, Digital PR, AI workflows.
+
+Tools: Ahrefs, SEMrush, Sitebulb, Botify, GA4, Google Search Console, STAT, WordPress, Excel, Jira, Buzzsumo, Canva.
+
+Certifications include Tech SEO Pro (Kristina Azarenko), Technical SEO (Blue Array), Local SEO (SEMrush) and other analytics certificates.
+
+## Run Locally
+
+1. Install dependencies:
+
 ```bash
+<<<<<<< HEAD
 modern-portfolio/
   |- app/
     |-- about/
@@ -103,122 +147,139 @@ modern-portfolio/
   |- tailwind.config.js
   |- tsconfig.json
   |- variants.js
+=======
+npm install
+>>>>>>> fed5d80 (Update README to match site content)
 ```
-<!--- FOLDER_STRUCTURE_END --->
 
-<br />
+2. Build the site (static export configured via `next.config.js`):
 
-## :toolbox: Getting Started
+```bash
+npm run build
+```
 
-1. Make sure **Git** and **NodeJS** is installed.
+3. Preview the exported static site (the build produces an `out/` folder):
 
-2. Clone this repository to your local computer.
+```bash
+python3 -m http.server --directory out 3000
+# then open http://localhost:3000
+```
 
-3. Open terminal in root directory. Run `npm install --legacy-peer-deps` or `yarn install --legacy-peer-deps`.
+## Development
 
-4. Now app is fully configured 👍 and you can start using this app using `npm run dev` or `yarn dev`.
+- Start dev server: `npm run dev`
+- Lint: `npm run lint`
 
-## :camera: Screenshots:
+## Tech Stack
 
-![Modern UI/UX](/.github/images/img1.png "Modern UI/UX")
+- Next.js (App router), React, TypeScript, Tailwind CSS, Framer Motion
+- Build tooling: PostCSS, Autoprefixer
 
-![Services](/.github/images/img2.png "Services")
+## Deployment
 
-![Showcase Projects](/.github/images/img3.png "Showcase Projects")
+This repository includes a GitHub Actions workflow that builds the site and deploys the exported `out/` folder to GitHub Pages on pushes to the default branch. For full Next.js feature support, consider deploying to Vercel.
 
-![Contact Form](/.github/images/img4.png "Contact Form")
+## Contributing
 
-## :gear: Tech Stack
+Contributions are welcome. Open a PR with changes and ensure code quality with the project's linting and formatting rules.
 
-[![React JS](https://skillicons.dev/icons?i=react "React JS")](https://react.dev/ "React JS") [![Next JS](https://skillicons.dev/icons?i=next "Next JS")](https://nextjs.org/ "Next JS") [![JavaScript](https://skillicons.dev/icons?i=js "JavaScript")](https://developer.mozilla.org/en-US/docs/Web/JavaScript "JavaScript") [![Tailwind CSS](https://skillicons.dev/icons?i=tailwind "Tailwind CSS")](https://tailwindcss.com/ "Tailwind CSS") [![Netlify](https://skillicons.dev/icons?i=netlify "Netlify")](https://netlify.app/ "Netlify")
+## License
 
-## :wrench: Stats
+MIT — see the `LICENSE` file.
 
-[![Stats for Modern Portfolio](/.github/images/stats.svg "Stats for Modern Portfolio")](https://pagespeed-insights-svg.glitch.me/?url=https://awersome-portfolio.netlify.app/ "Stats for Modern Portfolio")
+---
+# Nofisat Tolu Dopemu — SEO Strategist & Digital Innovator
 
-## :raised_hands: Contribute
+Driving organic growth through strategic SEO and digital innovation. Trusted by global brands including Audi, Guardian, Johnnie Walker and Post Office Limited. This repository contains the source for the public portfolio website showcasing services, case studies, blog writing and mentoring initiatives.
 
-You might encounter some bugs while using this app. You are more than welcome to contribute. Just submit changes via pull request and I will review them before merging. Make sure you follow community guidelines.
+---
 
-## :gem: Acknowledgements
+## Overview
 
-Useful resources and dependencies that are used in Modern Portfolio.
+- **Name:** Nofisat Tolu Dopemu
+- **Role:** SEO Strategist & Digital Innovator
+- **Experience:** 4+ years — founder-turned-strategist focusing on measurable organic growth
 
-<!--- DEPENDENCIES_START --->
-- [@next/font](https://www.npmjs.com/package/@next/font): ^13.4.4
-- [@radix-ui/react-dialog](https://www.npmjs.com/package/@radix-ui/react-dialog): ^1.1.15
-- [@radix-ui/react-slot](https://www.npmjs.com/package/@radix-ui/react-slot): ^1.2.4
-- [@radix-ui/react-tabs](https://www.npmjs.com/package/@radix-ui/react-tabs): ^1.1.13
-- [@types/node](https://www.npmjs.com/package/@types/node): ^25.3.0
-- [@types/react](https://www.npmjs.com/package/@types/react): ^19.2.14
-- [@types/react-dom](https://www.npmjs.com/package/@types/react-dom): ^19.2.3
-- [@types/react-syntax-highlighter](https://www.npmjs.com/package/@types/react-syntax-highlighter): ^15.5.13
-- [autoprefixer](https://www.npmjs.com/package/autoprefixer): ^10.4.14
-- [class-variance-authority](https://www.npmjs.com/package/class-variance-authority): ^0.7.1
-- [clsx](https://www.npmjs.com/package/clsx): ^2.1.1
-- [date-fns](https://www.npmjs.com/package/date-fns): ^4.1.0
-- [eslint](https://www.npmjs.com/package/eslint): 8.41.0
-- [eslint-config-next](https://www.npmjs.com/package/eslint-config-next): 13.4.3
-- [framer-motion](https://www.npmjs.com/package/framer-motion): ^12.34.3
-- [gray-matter](https://www.npmjs.com/package/gray-matter): ^4.0.3
-- [lucide-react](https://www.npmjs.com/package/lucide-react): ^0.575.0
-- [mdx-bundler](https://www.npmjs.com/package/mdx-bundler): ^10.1.1
-- [next](https://www.npmjs.com/package/next): 15.5.10
-- [next-themes](https://www.npmjs.com/package/next-themes): ^0.4.6
-- [postcss](https://www.npmjs.com/package/postcss): ^8.4.23
-- [react](https://www.npmjs.com/package/react): 18.2.0
-- [react-countup](https://www.npmjs.com/package/react-countup): ^6.5.3
-- [react-dom](https://www.npmjs.com/package/react-dom): 18.2.0
-- [react-icons](https://www.npmjs.com/package/react-icons): ^4.8.0
-- [react-tsparticles](https://www.npmjs.com/package/react-tsparticles): ^2.9.3
-- [shadcn-ui](https://www.npmjs.com/package/shadcn-ui): ^0.9.5
-- [swiper](https://www.npmjs.com/package/swiper): ^9.4.1
-- [tailwind-merge](https://www.npmjs.com/package/tailwind-merge): ^3.5.0
-- [tailwind-scrollbar](https://www.npmjs.com/package/tailwind-scrollbar): ^3.0.4
-- [tailwindcss](https://www.npmjs.com/package/tailwindcss): ^3.3.2
-- [tailwindcss-animate](https://www.npmjs.com/package/tailwindcss-animate): ^1.0.7
-- [tsparticles](https://www.npmjs.com/package/tsparticles): ^2.9.3
-- [typescript](https://www.npmjs.com/package/typescript): ^5.9.3
+The site highlights case studies, services (Technical SEO, Content Strategy, Growth Marketing, Digital PR, AI & Automation, SEO Audits), selected blog posts, and community / mentoring work.
 
-<!--- DEPENDENCIES_END --->
+## Services (summary)
 
-## :coffee: Buy Me a Coffee
+- **Technical SEO:** site crawls, Core Web Vitals remediation, schema, hreflang, migrations.
+- **Content Strategy:** keyword research, content cluster maps, briefs and editorial support.
+- **Growth Marketing:** CRO, analytics, local SEO and cross-channel strategies.
+- **Digital PR & Link Building:** data-led campaigns, outreach and backlink acquisition.
+- **AI & Automation Consulting:** AI workflows, prompt engineering and automation pipelines.
+- **SEO Audits:** scored audits, prioritised issue matrices and 30/60/90 plans.
 
-[<img src="https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" width="200" />](https://www.buymeacoffee.com/sanidhy "Buy me a Coffee")
+## Case Studies (high level slugs)
 
-## :rocket: Follow Me
+- post-office-cruise-insurance
+- post-office-digital-pr
+- guardian-jobs-content-seo
+- johnnie-walker-prince-street
+- audi-local-seo-footfall
+- tiger-recruitment-local-seo
 
-[![GitHub followers](https://img.shields.io/github/followers/sanidhyy?style=social&label=Follow&maxAge=2592000)](https://github.com/sanidhyy "Follow Me")
-[![Twitter](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fx.com%2F_sanidhyy)](https://x.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2Fsanidhyy%2Fmodern-portfolio "Tweet")
+## Selected Blog Topics (slugs)
 
-## :books: Learn More
+- modern-seo-ai-era
+- content-cluster-strategy
+- digital-pr-seo-backlinks
+- seo-burnout-strategies
+- geo-generative-engine-optimisation
+- networking-for-introverts
 
-To learn more about Next.js, take a look at the following resources:
+## Skills, Tools & Certifications
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Core skills: Content Strategy, Local & International SEO, Technical SEO, Link Building, Competitor Audit, Digital PR, AI workflows.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Tools: Ahrefs, SEMrush, Sitebulb, Botify, GA4, Google Search Console, STAT, WordPress, Excel, Jira, Buzzsumo, Canva.
 
-## :page_with_curl: Deploy on Vercel
+Certifications include Tech SEO Pro (Kristina Azarenko), Technical SEO (Blue Array), Local SEO (SEMrush) and other analytics certificates.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Run Locally
 
-Check out [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. Install dependencies:
 
-## :star: Give A Star
+```bash
+npm install
+```
 
-You can also give this repository a star to show more people and they can use this repository.
+2. Build the site (static export configured via `next.config.js`):
 
-## :star2: Star History
+```bash
+npm run build
+```
 
-<a href="https://star-history.com/#sanidhyy/modern-portfolio&Timeline">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=sanidhyy/modern-portfolio&type=Timeline&theme=dark" />
-  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=sanidhyy/modern-portfolio&type=Timeline" />
-  <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=sanidhyy/modern-portfolio&type=Timeline" />
-</picture>
-</a>
+3. Preview the exported static site (the build produces an `out/` folder):
 
-<br />
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+```bash
+python3 -m http.server --directory out 3000
+# then open http://localhost:3000
+```
+
+## Development
+
+- Start dev server: `npm run dev`
+- Lint: `npm run lint`
+
+## Tech Stack
+
+- Next.js (App router), React, TypeScript, Tailwind CSS, Framer Motion
+- Build tooling: PostCSS, Autoprefixer
+
+## Deployment
+
+This repository includes a GitHub Actions workflow that builds the site and deploys the exported `out/` folder to GitHub Pages on pushes to the default branch. For full Next.js feature support, consider deploying to Vercel.
+
+## Contributing
+
+Contributions are welcome. Open a PR with changes and ensure code quality with the project's linting and formatting rules.
+
+## License
+
+MIT — see the `LICENSE` file.
+
+---
+
+For contact or commissions, use the website's Contact form.
