@@ -43,6 +43,15 @@ Driving organic growth through strategic SEO and digital innovation. Trusted by 
 ## Overview
 
 - **Name:** Nofisat Tolu Dopemu
+# Nofisat Tolu Dopemu — SEO Strategist & Digital Innovator
+
+Driving organic growth through strategic SEO and digital innovation. Trusted by global brands including Audi, Guardian, Johnnie Walker and Post Office Limited. This repository contains the source for the public portfolio website showcasing services, case studies, blog writing and mentoring initiatives.
+
+---
+
+## Overview
+
+- **Name:** Nofisat Tolu Dopemu
 - **Role:** SEO Strategist & Digital Innovator
 - **Experience:** 4+ years — founder-turned-strategist focusing on measurable organic growth
 
@@ -88,68 +97,7 @@ Certifications include Tech SEO Pro (Kristina Azarenko), Technical SEO (Blue Arr
 1. Install dependencies:
 
 ```bash
-<<<<<<< HEAD
-modern-portfolio/
-  |- app/
-    |-- about/
-    |-- api/
-    |-- blog/
-    |-- case-studies/
-    |-- services/
-    |-- globals.css
-    |-- layout.tsx
-    |-- page.tsx
-    |-- robots.ts
-    |-- sitemap.ts
-  |- components/
-    |-- ui/
-    |-- AboutSection.tsx
-    |-- Avatar.jsx
-    |-- BlogPreviewSection.tsx
-    |-- Bulb.jsx
-    |-- CardLeft.jsx
-    |-- CardRight.jsx
-    |-- CaseStudiesSection.tsx
-    |-- Circles.jsx
-    |-- ContactSection.tsx
-    |-- FeaturedSection.tsx
-    |-- Footer.tsx
-    |-- Header.jsx
-    |-- HeroSection.tsx
-    |-- Layout.jsx
-    |-- Nav.jsx
-    |-- Navbar.tsx
-    |-- ParticlesContainer.jsx
-    |-- ProjectsBtn.jsx
-    |-- ServiceSlider.jsx
-    |-- ServicesSection.tsx
-    |-- Socials.jsx
-    |-- TestimonialSlider.jsx
-    |-- ThemeProvider.tsx
-    |-- TopLeftImg.jsx
-    |-- Transition.jsx
-    |-- WorkSlider.jsx
-  |- lib/
-    |-- data.ts
-    |-- utils.ts
-  |- public/
-  |- styles/
-    |-- globals.css
-  |- types/
-    |-- index.ts
-  |- .eslintrc.json
-  |- .gitignore
-  |- netlify.toml
-  |- next.config.js
-  |- package-lock.json
-  |- package.json
-  |- postcss.config.js
-  |- tailwind.config.js
-  |- tsconfig.json
-  |- variants.js
-=======
 npm install
->>>>>>> fed5d80 (Update README to match site content)
 ```
 
 2. Build the site (static export configured via `next.config.js`):
@@ -175,6 +123,21 @@ python3 -m http.server --directory out 3000
 - Next.js (App router), React, TypeScript, Tailwind CSS, Framer Motion
 - Build tooling: PostCSS, Autoprefixer
 
+## Deployment
+
+This repository includes a GitHub Actions workflow that builds the site and deploys the exported `out/` folder to GitHub Pages on pushes to the default branch. For full Next.js feature support, consider deploying to Vercel.
+
+## Contributing
+
+Contributions are welcome. Open a PR with changes and ensure code quality with the project's linting and formatting rules.
+
+## License
+
+MIT — see the `LICENSE` file.
+
+---
+
+For contact or commissions, use the website's Contact form.
 ## Deployment
 
 This repository includes a GitHub Actions workflow that builds the site and deploys the exported `out/` folder to GitHub Pages on pushes to the default branch. For full Next.js feature support, consider deploying to Vercel.

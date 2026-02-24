@@ -28,7 +28,7 @@ const Layout = ({ children }) => {
           name="keywords"
           content="react, next, nextjs, html, css, javascript, js, modern-ui, modern-ux, portfolio, framer-motion, 3d-website, particle-effect"
         />
-        <meta name="author" content="Sanidhya Kumar Verma" />
+        
         <meta name="theme-color" content="#f13024" />
       </Head>
 
