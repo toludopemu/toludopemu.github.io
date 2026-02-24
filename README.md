@@ -46,34 +46,53 @@ Here is the folder structure of this app.
 <!--- FOLDER_STRUCTURE_START --->
 ```bash
 modern-portfolio/
+  |- app/
+    |-- about/
+    |-- api/
+    |-- blog/
+    |-- case-studies/
+    |-- services/
+    |-- globals.css
+    |-- layout.tsx
+    |-- page.tsx
+    |-- robots.ts
+    |-- sitemap.ts
   |- components/
+    |-- ui/
+    |-- AboutSection.tsx
     |-- Avatar.jsx
+    |-- BlogPreviewSection.tsx
     |-- Bulb.jsx
     |-- CardLeft.jsx
     |-- CardRight.jsx
+    |-- CaseStudiesSection.tsx
     |-- Circles.jsx
+    |-- ContactSection.tsx
+    |-- FeaturedSection.tsx
+    |-- Footer.tsx
     |-- Header.jsx
+    |-- HeroSection.tsx
     |-- Layout.jsx
     |-- Nav.jsx
+    |-- Navbar.tsx
     |-- ParticlesContainer.jsx
     |-- ProjectsBtn.jsx
     |-- ServiceSlider.jsx
+    |-- ServicesSection.tsx
     |-- Socials.jsx
     |-- TestimonialSlider.jsx
+    |-- ThemeProvider.tsx
     |-- TopLeftImg.jsx
     |-- Transition.jsx
     |-- WorkSlider.jsx
-  |- pages/
-    |-- about/
-    |-- contact/
-    |-- services/
-    |-- testimonials/
-    |-- work/
-    |-- _app.jsx
-    |-- index.jsx
+  |- lib/
+    |-- data.ts
+    |-- utils.ts
   |- public/
   |- styles/
     |-- globals.css
+  |- types/
+    |-- index.ts
   |- .eslintrc.json
   |- .gitignore
   |- netlify.toml
@@ -82,6 +101,7 @@ modern-portfolio/
   |- package.json
   |- postcss.config.js
   |- tailwind.config.js
+  |- tsconfig.json
   |- variants.js
 ```
 <!--- FOLDER_STRUCTURE_END --->
@@ -126,21 +146,39 @@ Useful resources and dependencies that are used in Modern Portfolio.
 
 <!--- DEPENDENCIES_START --->
 - [@next/font](https://www.npmjs.com/package/@next/font): ^13.4.4
+- [@radix-ui/react-dialog](https://www.npmjs.com/package/@radix-ui/react-dialog): ^1.1.15
+- [@radix-ui/react-slot](https://www.npmjs.com/package/@radix-ui/react-slot): ^1.2.4
+- [@radix-ui/react-tabs](https://www.npmjs.com/package/@radix-ui/react-tabs): ^1.1.13
+- [@types/node](https://www.npmjs.com/package/@types/node): ^25.3.0
+- [@types/react](https://www.npmjs.com/package/@types/react): ^19.2.14
+- [@types/react-dom](https://www.npmjs.com/package/@types/react-dom): ^19.2.3
+- [@types/react-syntax-highlighter](https://www.npmjs.com/package/@types/react-syntax-highlighter): ^15.5.13
 - [autoprefixer](https://www.npmjs.com/package/autoprefixer): ^10.4.14
+- [class-variance-authority](https://www.npmjs.com/package/class-variance-authority): ^0.7.1
+- [clsx](https://www.npmjs.com/package/clsx): ^2.1.1
+- [date-fns](https://www.npmjs.com/package/date-fns): ^4.1.0
 - [eslint](https://www.npmjs.com/package/eslint): 8.41.0
 - [eslint-config-next](https://www.npmjs.com/package/eslint-config-next): 13.4.3
-- [framer-motion](https://www.npmjs.com/package/framer-motion): ^10.12.16
+- [framer-motion](https://www.npmjs.com/package/framer-motion): ^12.34.3
+- [gray-matter](https://www.npmjs.com/package/gray-matter): ^4.0.3
+- [lucide-react](https://www.npmjs.com/package/lucide-react): ^0.575.0
+- [mdx-bundler](https://www.npmjs.com/package/mdx-bundler): ^10.1.1
 - [next](https://www.npmjs.com/package/next): 15.5.10
+- [next-themes](https://www.npmjs.com/package/next-themes): ^0.4.6
 - [postcss](https://www.npmjs.com/package/postcss): ^8.4.23
 - [react](https://www.npmjs.com/package/react): 18.2.0
-- [react-countup](https://www.npmjs.com/package/react-countup): ^6.4.2
+- [react-countup](https://www.npmjs.com/package/react-countup): ^6.5.3
 - [react-dom](https://www.npmjs.com/package/react-dom): 18.2.0
 - [react-icons](https://www.npmjs.com/package/react-icons): ^4.8.0
 - [react-tsparticles](https://www.npmjs.com/package/react-tsparticles): ^2.9.3
-- [swiper](https://www.npmjs.com/package/swiper): ^9.4.0
+- [shadcn-ui](https://www.npmjs.com/package/shadcn-ui): ^0.9.5
+- [swiper](https://www.npmjs.com/package/swiper): ^9.4.1
+- [tailwind-merge](https://www.npmjs.com/package/tailwind-merge): ^3.5.0
 - [tailwind-scrollbar](https://www.npmjs.com/package/tailwind-scrollbar): ^3.0.4
 - [tailwindcss](https://www.npmjs.com/package/tailwindcss): ^3.3.2
+- [tailwindcss-animate](https://www.npmjs.com/package/tailwindcss-animate): ^1.0.7
 - [tsparticles](https://www.npmjs.com/package/tsparticles): ^2.9.3
+- [typescript](https://www.npmjs.com/package/typescript): ^5.9.3
 
 <!--- DEPENDENCIES_END --->
 
