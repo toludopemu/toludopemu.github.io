@@ -9,9 +9,6 @@ const nextConfig = {
   },
   // export as a static site suitable for GitHub Pages
   output: 'export',
-  // Set basePath for deployment to a subpath
-  basePath: '/ntd.github.io',
-  assetPrefix: '/ntd.github.io',
   // ensure directories are generated for each route (index.html in folders)
   trailingSlash: true,
 }
