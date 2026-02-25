@@ -2,8 +2,7 @@
   "name": "modern-portfolio",
   "version": "1.0.1",
   "private": true,
-  
-  "description": "Ethan Smith is a Full-stack web developer with 10+ years of experience.",
+  "description": "Nofisat Tolu Dopemu is an SEO Strategist and Digital Innovator with 4+ years of experience.",
   "keywords": [
     "react",
     "next",
@@ -22,10 +21,9 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sanidhyy/modern-portfolio.git"
+    "url": "https://github.com/toludopemu/toludopemu.github.io.git"
   },
-  "homepage": "https://github.com/sanidhyy/modern-portfolio#readme",
-  
+  "homepage": "https://toludopemu.github.io",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
