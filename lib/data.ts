@@ -7,7 +7,7 @@ export const profileData = {
     email: "toludopemu@gmail.com",
     linkedin: "https://www.linkedin.com/in/toludopemu/",
     phone: "+447950953088",
-    bio: "SEO STRATEGIST & DIGITAL INNOVATOR  with 4 years of experience across both agency and in-house environments. As a former founder, I prioritise business impact and customer value. I bridge the gap between complex search data and actionable growth strategies. My portfolio spans high-impact work for global brands such as Audi, Guardian, Johnnie Walker, Volkswagen and Post Office Limited.",
+    bio: "SEO STRATEGIST & DIGITAL INNOVATOR  with 5+ years of experience across both agency and in-house environments. As a former founder, I prioritise business impact and customer value. I bridge the gap between complex search data and actionable growth strategies. My portfolio spans high-impact work for global brands such as Audi, Guardian, Johnnie Walker, Volkswagen and Post Office Limited.",
     philosophy: "I believe in data-driven growth that prioritises user value and business impact. SEO is not just about rankings; it's about solving problems and creating seamless digital journeys.",
 };
 
@@ -195,7 +195,7 @@ export const blogPosts: BlogPost[] = [
     {
         slug: "networking-for-introverts",
         title: "Networking for Introverts: It Doesn't Have to Be Draining",
-        date: "2024-03-07",
+        date: "2026-02-04",
         readTime: "4 min read",
         excerpt: "Lessons from Dale Carnegie and my own experience attending conferences as an introvert. Networking doesn't mean working the room.",
         content: `I’ve been reading **How to Win Friends & Influence People** by Dale Carnegie. 
@@ -223,7 +223,7 @@ That awareness matters just as much as the conversation itself.`,
     {
         slug: "women-in-tech-seo-2024-recap",
         title: "WTS London 2024: Agentic AI, Storytelling, and Discovery",
-        date: "2024-03-08",
+        date: "2026-02-055",
         readTime: "3 min read",
         excerpt: "Key takeaways from the Women in Tech SEO conference in London, featuring insights on Agentic AI, data storytelling, and the future of search.",
         content: `What an amazing day it has been at the Women in Tech SEO conference in London! It was lovely meeting amazing people, learning, and leaving with so many lessons.
@@ -244,7 +244,7 @@ That awareness matters just as much as the conversation itself.`,
     {
         slug: "the-reality-of-free-pr-ugc",
         title: "Why 'Free PR' Isn't Really Free: A Marketer's Take on UGC",
-        date: "2023-06-14",
+        date: "2025-10-28",
         readTime: "5 min read",
         excerpt: "Realizing that free PR is often a clever marketing persuasion technique. How UGC reviews boost brand visibility and trust signals.",
         content: `I used to think free PR was just a fun perk of being a creator until I realised what was really happening. I’ve been posting consistently on TikTok lately, and one thing I’ve learned from doing UGC is that when a brand reaches out for PR, it’s often not just about your community.
