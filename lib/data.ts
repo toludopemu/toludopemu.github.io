@@ -195,7 +195,7 @@ export const blogPosts: BlogPost[] = [
     {
         slug: "networking-for-introverts",
         title: "Networking for Introverts: It Doesn't Have to Be Draining",
-        date: "2024-11-14",
+        date: "2024-03-07",
         readTime: "4 min read",
         excerpt: "Lessons from Dale Carnegie and my own experience attending conferences as an introvert. Networking doesn't mean working the room.",
         content: `I’ve been reading **How to Win Friends & Influence People** by Dale Carnegie. 
@@ -223,7 +223,7 @@ That awareness matters just as much as the conversation itself.`,
     {
         slug: "women-in-tech-seo-2024-recap",
         title: "WTS London 2024: Agentic AI, Storytelling, and Discovery",
-        date: "2024-11-15",
+        date: "2024-03-08",
         readTime: "3 min read",
         excerpt: "Key takeaways from the Women in Tech SEO conference in London, featuring insights on Agentic AI, data storytelling, and the future of search.",
         content: `What an amazing day it has been at the Women in Tech SEO conference in London! It was lovely meeting amazing people, learning, and leaving with so many lessons.
@@ -244,7 +244,7 @@ That awareness matters just as much as the conversation itself.`,
     {
         slug: "the-reality-of-free-pr-ugc",
         title: "Why 'Free PR' Isn't Really Free: A Marketer's Take on UGC",
-        date: "2024-12-05",
+        date: "2023-06-14",
         readTime: "5 min read",
         excerpt: "Realizing that free PR is often a clever marketing persuasion technique. How UGC reviews boost brand visibility and trust signals.",
         content: `I used to think free PR was just a fun perk of being a creator until I realised what was really happening. I’ve been posting consistently on TikTok lately, and one thing I’ve learned from doing UGC is that when a brand reaches out for PR, it’s often not just about your community.
