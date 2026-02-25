@@ -75,11 +75,11 @@ export function CaseStudiesSection() {
                                         <p className="text-sm line-clamp-2">{study.strategy}</p>
                                     </div>
                                     {/* Results */}
-                                    <div className="grid grid-cols-3 gap-3 pt-2">
+                                    <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 pt-2">
                                         {study.results.map((r) => (
                                             <div key={r.label} className="text-center p-3 rounded-xl bg-muted">
-                                                <p className={`text-xl font-bold bg-gradient-to-r ${study.color} bg-clip-text text-transparent`}>{r.value}</p>
-                                                <p className="text-[10px] text-muted-foreground mt-1 uppercase tracking-tighter font-bold">{r.label}</p>
+                                                <p className={`text-lg sm:text-xl font-bold bg-gradient-to-r ${study.color} bg-clip-text text-transparent`}>{r.value}</p>
+                                                <p className="text-[10px] sm:text-[11px] text-muted-foreground mt-1 uppercase tracking-tighter font-bold">{r.label}</p>
                                             </div>
                                         ))}
                                     </div>

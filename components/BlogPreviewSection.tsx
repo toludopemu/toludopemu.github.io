@@ -21,8 +21,8 @@ export function BlogPreviewSection() {
                 >
                     <div className="space-y-4">
                         <Badge variant="outline" className="text-primary border-primary/20 bg-primary/5 uppercase tracking-widest text-[10px] font-bold py-1 px-4">Insights</Badge>
-                        <h2 className="text-4xl font-bold">Latest Content</h2>
-                        <p className="text-muted-foreground text-lg max-w-lg">
+                        <h2 className="text-3xl sm:text-4xl font-bold">Latest Content</h2>
+                        <p className="text-muted-foreground text-sm sm:text-lg max-w-lg">
                             Practical SEO insights from real campaigns — no fluff, just actionable strategy.
                         </p>
                     </div>

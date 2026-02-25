@@ -23,8 +23,8 @@ export function FeaturedSection() {
                     <Badge variant="outline" className="text-primary border-primary/20 bg-primary/5 uppercase tracking-widest text-[10px] font-bold py-1 px-4">
                         Press & Appearances
                     </Badge>
-                    <h2 className="text-4xl font-bold">Featured In & Speaking</h2>
-                    <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
+                    <h2 className="text-3xl sm:text-4xl font-bold">Featured In & Speaking</h2>
+                    <p className="text-muted-foreground text-sm sm:text-lg max-w-2xl mx-auto">
                         Sharing SEO insights, mentoring talent, and contributing to the global search community.
                     </p>
                 </div>
@@ -60,16 +60,16 @@ export function FeaturedSection() {
                                             </div>
                                         </div>
                                     </div>
-                                    <CardContent className="p-4 space-y-2">
+                                    <CardContent className="p-5 space-y-3">
                                         <div className="flex justify-between items-start gap-2">
-                                            <p className="text-[10px] font-bold uppercase tracking-widest text-primary">
+                                            <p className="text-xs font-bold uppercase tracking-widest text-primary">
                                                 {feature.platform}
                                             </p>
-                                            <Badge variant="secondary" className="text-[8px] uppercase tracking-tighter h-4 px-1">
+                                            <Badge variant="secondary" className="text-[10px] uppercase tracking-tighter h-5 px-2">
                                                 {feature.type}
                                             </Badge>
                                         </div>
-                                        <h3 className="font-bold text-sm leading-tight group-hover:text-primary transition-colors line-clamp-2">
+                                        <h3 className="font-bold text-base leading-tight group-hover:text-primary transition-colors line-clamp-2">
                                             {feature.title}
                                         </h3>
                                     </CardContent>

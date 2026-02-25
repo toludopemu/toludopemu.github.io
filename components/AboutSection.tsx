@@ -64,10 +64,10 @@ export function AboutSection() {
                     >
                         <div>
                             <Badge variant="outline" className="mb-4 text-primary border-primary/20 bg-primary/5 uppercase tracking-widest text-[10px] font-bold py-1 px-4">About Me</Badge>
-                            <h2 className="text-4xl font-bold mb-4">
+                            <h2 className="text-3xl sm:text-4xl font-bold mb-4">
                                 Bridging Search Data & Business Growth
                             </h2>
-                            <p className="text-muted-foreground leading-relaxed text-lg">
+                            <p className="text-muted-foreground leading-relaxed text-base sm:text-lg">
                                 SEO STRATEGIST & DIGITAL INNOVATION PROFESSIONAL with 4+ years of experience across agency and in-house environments.
                                 As a former founder of an award-winning travel brand, I prioritise business impact and customer value above all else — bridging complex search data and actionable growth strategies.
                             </p>
@@ -76,17 +76,17 @@ export function AboutSection() {
                         {/* Tags */}
                         <div className="flex flex-wrap gap-2">
                             {highlights.map((h) => (
-                                <span key={h} className="text-xs font-semibold uppercase tracking-wider bg-primary/5 text-primary border border-primary/20 rounded-lg px-4 py-2 hover:bg-primary/10 transition-colors">
+                                <span key={h} className="text-[10px] sm:text-xs font-semibold uppercase tracking-wider bg-primary/5 text-primary border border-primary/20 rounded-lg px-3 sm:px-4 py-1.5 sm:py-2 hover:bg-primary/10 transition-colors">
                                     {h}
                                 </span>
                             ))}
                         </div>
 
                         {/* Metrics */}
-                        <div ref={ref} className="grid grid-cols-2 gap-4">
+                        <div ref={ref} className="grid grid-cols-2 gap-3 sm:gap-4">
                             {metrics.map((m) => (
-                                <div key={m.label} className="p-6 rounded-2xl border bg-card hover:border-primary/30 transition-colors group">
-                                    <p className="text-3xl font-extrabold text-primary group-hover:scale-105 transition-transform origin-left">
+                                <div key={m.label} className="p-4 sm:p-6 rounded-2xl border bg-card hover:border-primary/30 transition-colors group">
+                                    <p className="text-2xl sm:text-3xl font-extrabold text-primary group-hover:scale-105 transition-transform origin-left">
                                         {m.prefix}
                                         {inView ? (
                                             <CountUp end={m.value} duration={2.5} decimals={m.decimals || 0} />
@@ -95,7 +95,7 @@ export function AboutSection() {
                                         )}
                                         {m.suffix}
                                     </p>
-                                    <p className="text-xs font-bold uppercase tracking-widest text-muted-foreground mt-2">{m.label}</p>
+                                    <p className="text-[10px] font-bold uppercase tracking-widest text-muted-foreground mt-1 sm:mt-2">{m.label}</p>
                                 </div>
                             ))}
                         </div>

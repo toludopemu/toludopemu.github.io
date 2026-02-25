@@ -47,12 +47,12 @@ export function Navbar() {
         >
             <div className="container mx-auto flex items-center justify-between">
                 {/* Logo */}
-                <Link href="/" className="flex flex-col group">
-                    <div className="text-2xl font-bold tracking-tight flex items-center gap-1">
-                        <span className="text-foreground">Nofisat Tolu</span>
-                        <span className="text-primary group-hover:opacity-80 transition-opacity">Dopemu</span>
+                <Link href="/" className="flex flex-col group max-w-[200px] sm:max-w-none">
+                    <div className="text-lg sm:text-2xl font-bold tracking-tight flex flex-wrap items-center gap-x-1 leading-tight">
+                        <span className="text-foreground whitespace-nowrap">Nofisat Tolu</span>
+                        <span className="text-primary group-hover:opacity-80 transition-opacity whitespace-nowrap">Dopemu</span>
                     </div>
-                    <span className="text-[10px] uppercase tracking-[0.2em] font-bold text-muted-foreground/80 -mt-1 group-hover:text-primary transition-colors">
+                    <span className="text-[8px] sm:text-[10px] uppercase tracking-[0.1em] sm:tracking-[0.2em] font-bold text-muted-foreground/80 -mt-0.5 sm:-mt-1 group-hover:text-primary transition-colors line-clamp-1">
                         SEO Strategist & Digital Innovator
                     </span>
                 </Link>

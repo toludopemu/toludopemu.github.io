@@ -59,8 +59,8 @@ export function ServicesSection() {
                     className="text-center mb-16 space-y-4"
                 >
                     <Badge variant="outline" className="text-primary border-primary/20 bg-primary/5 uppercase tracking-widest text-[10px] font-bold py-1 px-4">Services</Badge>
-                    <h2 className="text-4xl font-bold">What I Deliver</h2>
-                    <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
+                    <h2 className="text-3xl sm:text-4xl font-bold">What I Deliver</h2>
+                    <p className="text-muted-foreground text-sm sm:text-lg max-w-2xl mx-auto">
                         From technical foundations to high-reach PR campaigns, every service is designed to create measurable business impact.
                     </p>
                 </motion.div>
