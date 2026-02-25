@@ -12,7 +12,7 @@ export const metadata: Metadata = {
         template: "%s | Nofisat Tolu Dopemu",
     },
     description:
-        "Nofisat Tolu Dopemu is an SEO Strategist and Digital Innovator with 4+ years of experience driving organic growth for global brands including Audi, Guardian, Johnnie Walker and Post Office Limited.",
+        "Nofisat Tolu Dopemu is an SEO Strategist and Digital Innovator with 5+ years of experience driving organic growth for global brands including Audi, Guardian, Johnnie Walker and Post Office Limited.",
     keywords: [
         "SEO Strategist",
         "Digital Marketing",

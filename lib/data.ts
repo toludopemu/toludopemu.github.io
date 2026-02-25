@@ -7,7 +7,7 @@ export const profileData = {
     email: "toludopemu@gmail.com",
     linkedin: "https://www.linkedin.com/in/toludopemu/",
     phone: "+447950953088",
-    bio: "SEO STRATEGIST & DIGITAL INNOVATION PROFESSIONAL with 4 years of experience across both agency and in-house environments. As a former founder, I prioritise business impact and customer value. I bridge the gap between complex search data and actionable growth strategies. My portfolio spans high-impact work for global brands such as Audi, Guardian, Johnnie Walker, Volkswagen and Post Office Limited.",
+    bio: "SEO STRATEGIST & DIGITAL INNOVATOR  with 4 years of experience across both agency and in-house environments. As a former founder, I prioritise business impact and customer value. I bridge the gap between complex search data and actionable growth strategies. My portfolio spans high-impact work for global brands such as Audi, Guardian, Johnnie Walker, Volkswagen and Post Office Limited.",
     philosophy: "I believe in data-driven growth that prioritises user value and business impact. SEO is not just about rankings; it's about solving problems and creating seamless digital journeys.",
 };
 

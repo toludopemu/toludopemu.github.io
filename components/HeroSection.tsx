@@ -37,7 +37,7 @@ export function HeroSection() {
                             <span className="text-primary"> & Business Growth</span>
                         </h1>
                         <p className="text-muted-foreground text-base sm:text-lg md:text-xl max-w-xl leading-relaxed">
-                            SEO STRATEGIST & DIGITAL INNOVATION PROFESSIONAL with 4+ years of experience across agency and in-house environments. I prioritise business impact and customer value above all else.
+                            SEO STRATEGIST & DIGITAL INNOVATOR  with 5+ years of experience across agency and in-house environments. I prioritise business impact and customer value above all else.
                         </p>
                     </div>
 

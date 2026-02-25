@@ -68,7 +68,7 @@ export function AboutSection() {
                                 Bridging Search Data & Business Growth
                             </h2>
                             <p className="text-muted-foreground leading-relaxed text-base sm:text-lg">
-                                SEO STRATEGIST & DIGITAL INNOVATION PROFESSIONAL with 4+ years of experience across agency and in-house environments.
+                                SEO STRATEGIST & DIGITAL INNOVATOR  with 5+ years of experience across agency and in-house environments.
                                 As a former founder of an award-winning travel brand, I prioritise business impact and customer value above all else — bridging complex search data and actionable growth strategies.
                             </p>
                         </div>
